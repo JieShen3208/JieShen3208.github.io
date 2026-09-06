@@ -29,11 +29,11 @@ links:
     url: mailto:jie.shen@ubc.ca
     label: E-mail
 
-  - icon: brands/google-scholar
+  - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=BYWjpGcAAAAJ&hl
     label: Google Scholar
 
-  - icon: brands/orcid
+  - icon: academicons/orcid
     url: https://orcid.org/0000-0002-6008-9735
     label: ORCID
 
