@@ -13,7 +13,7 @@ postnominals:
   - PhD
 
 status:
-  icon: '🌉'
+  icon: ''
 
 role: Postdoctoral Research Fellow
 
@@ -26,44 +26,47 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
+    url: mailto:jie.shen@ubc.ca
+    label: E-mail
+
+  - icon: brands/google-scholar
+    url: https://scholar.google.com/citations?user=BYWjpGcAAAAJ&hl
+    label: Google Scholar
+
+  - icon: brands/orcid
+    url: https://orcid.org/0000-0002-6008-9735
+    label: ORCID
+
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/jie-shen-330087322/
+    label: LinkedIn
+
+  - icon: brands/github
+    url: https://github.com/JieShen3208
+    label: GitHub
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Structural and Earthquake Engineering
+  - Seismic Resilience
+  - Bridge Engineering
+  - Seismic Isolation
+  - Climate-Adapted Infrastructure
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: Ph.D. in Civil Engineering
+    institution: Kyoto University
+    start: 2021-10
+    end: 2024-09
+
+  - degree: M.Eng. in Civil Engineering
+    institution: Southeast University
+    start: 2018-09
+    end: 2021-06
+
+  - degree: B.Eng. in Civil Engineering
+    institution: Nanjing Forestry University
+    start: 2014-09
+    end: 2018-06
 
 experience:
   - role: Senior AI Research Scientist
