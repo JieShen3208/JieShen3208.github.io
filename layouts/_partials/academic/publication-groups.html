@@ -1,0 +1,11 @@
+{{ $archive := .archive }}
+{{ range .items.GroupByDate "2006" "desc" }}
+  <section class="academic-year-group" aria-labelledby="pub-year-{{ .Key }}">
+    {{ if $archive }}<h2 class="academic-year" id="pub-year-{{ .Key }}">{{ .Key }}</h2>{{ else }}<h3 class="academic-year" id="pub-year-{{ .Key }}">{{ .Key }}</h3>{{ end }}
+    <div class="academic-year-papers">
+      {{ range .Pages.ByDate.Reverse }}
+        {{ partial "academic/publication-item.html" (dict "item" . "archive" $archive) }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

@@ -15,10 +15,10 @@ postnominals:
 status:
   icon: ''
 
-role: Postdoctoral Research Fellow
+role: Postdoctoral Fellow
 
 bio: |
-  Jie Shen is a Postdoctoral Research Fellow at the University of British Columbia. His research focuses on structural and earthquake engineering, with particular interests in seismic resilience, bridge engineering, seismic isolation, climate-adapted infrastructure, experimental testing, hybrid simulation, and probabilistic performance assessment.
+  Jie Shen is a Postdoctoral Fellow at the University of British Columbia. His research focuses on structural and earthquake engineering, with particular interests in seismic resilience, bridge engineering, seismic isolation, climate-adapted infrastructure, experimental testing, hybrid simulation, and probabilistic performance assessment.
 
 affiliations:
   - name: University of British Columbia
@@ -55,65 +55,32 @@ interests:
 education:
   - degree: Ph.D. in Civil Engineering
     institution: Kyoto University
-    start: 2021-10
-    end: 2024-09
+    start: '2021-10-01'
+    end: '2024-09-01'
 
   - degree: M.Eng. in Civil Engineering
     institution: Southeast University
-    start: 2018-09
-    end: 2021-06
+    start: '2018-09-01'
+    end: '2021-06-01'
 
   - degree: B.Eng. in Civil Engineering
     institution: Nanjing Forestry University
-    start: 2014-09
-    end: 2018-06
+    start: '2014-09-01'
+    end: '2018-06-01'
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Postdoctoral Fellow
+    org: University of British Columbia
+    start: '2025-04-01'
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      School of Engineering
+
+      Supervisor: Prof. M. Shahria Alam
+  - role: Postdoctoral Fellow
+    org: Saitama University
+    start: '2024-10-01'
+    end: '2025-03-31'
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Department of Civil and Environmental Engineering
 
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+      Supervisor: Prof. Ji Dang

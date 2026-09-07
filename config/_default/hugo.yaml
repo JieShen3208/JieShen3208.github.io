@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://jieshen3208.github.io/'
 
 ############################
 ## LANGUAGE
@@ -22,6 +22,25 @@ removePathAccents: true
 ############################
 
 cascade:
+  # Keep template demonstrations out of the site without editing imported papers.
+  - target:
+      path: '/{blog,events,projects,courses,slides}'
+    build:
+      render: never
+      list: never
+      publishResources: false
+  - target:
+      path: '/{blog,events,projects,courses,slides}/**'
+    build:
+      render: never
+      list: never
+      publishResources: false
+  - target:
+      path: '/publications/{conference-paper,journal-article,preprint}'
+    build:
+      render: never
+      list: never
+      publishResources: false
   - target:
       path: /slides/**
       kind: page

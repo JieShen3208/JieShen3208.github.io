@@ -1,0 +1,22 @@
+{{ $item := .item }}
+{{ $pub := partial "functions/resolve_publication.html" $item }}
+{{ $kind := "" }}
+{{ if in $item.Params.publication_types "article-journal" }}
+  {{ $kind = "Journal article" }}
+{{ else if in $item.Params.publication_types "paper-conference" }}
+  {{ $kind = "Conference paper" }}
+{{ else if in $item.Params.publication_types "article" }}
+  {{ $kind = "Preprint" }}
+{{ end }}
+<article class="academic-paper">
+  {{ if .archive }}<h3 class="academic-paper-title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h3>{{ else }}<h4 class="academic-paper-title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h4>{{ end }}
+  <div class="academic-paper-authors">{{ partial "page_metadata_authors.html" $item }}</div>
+  <div class="academic-paper-venue">
+    {{ with $pub.name }}<em>{{ . | markdownify | plainify }}</em><span>, </span>{{ end }}
+    <time datetime="{{ $item.Date.Format "2006" }}">{{ $item.Date.Format "2006" }}</time>
+    {{ with $kind }}<span class="academic-paper-type">{{ . }}</span>{{ end }}
+  </div>
+  <div class="academic-paper-links">
+    {{ partial "page_links.html" (dict "page" $item "is_list" 1) }}
+  </div>
+</article>

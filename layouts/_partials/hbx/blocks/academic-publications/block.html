@@ -1,0 +1,9 @@
+{{ $items := where site.RegularPages "Section" "publications" }}
+{{ $count := int (.wcBlock.content.count | default 6) }}
+<div class="academic-publications academic-container">
+  <div class="academic-section-heading">
+    <h2>{{ .wcBlock.content.title | default "Publications" }}</h2>
+    <a href="{{ "publications/" | relLangURL }}">All publications <span aria-hidden="true">→</span></a>
+  </div>
+  {{ partial "academic/publication-groups.html" (dict "items" (first $count $items.ByDate.Reverse) "archive" false) }}
+</div>
