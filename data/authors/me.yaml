@@ -52,22 +52,6 @@ interests:
   - Seismic Isolation
   - Climate-Adapted Infrastructure
 
-education:
-  - degree: Ph.D. in Civil Engineering
-    institution: Kyoto University
-    start: '2021-10'
-    end: '2024-09'
-
-  - degree: M.Eng. in Civil Engineering
-    institution: Southeast University
-    start: '2018-09'
-    end: '2021-06'
-
-  - degree: B.Eng. in Civil Engineering
-    institution: Nanjing Forestry University
-    start: '2014-09'
-    end: '2018-06'
-
 experience:
   - role: Postdoctoral Fellow
     org: University of British Columbia
@@ -84,3 +68,19 @@ experience:
       Department of Civil and Environmental Engineering
 
       Supervisor: Prof. Ji Dang
+
+education:
+  - degree: Ph.D. in Civil Engineering
+    institution: Kyoto University
+    start: '2021-10'
+    end: '2024-09'
+
+  - degree: M.Eng. in Civil Engineering
+    institution: Southeast University
+    start: '2018-09'
+    end: '2021-06'
+
+  - degree: B.Eng. in Civil Engineering
+    institution: Nanjing Forestry University
+    start: '2014-09'
+    end: '2018-06'
