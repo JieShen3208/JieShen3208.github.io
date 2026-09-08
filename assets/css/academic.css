@@ -39,3 +39,22 @@
   .academic-paper-title { font-size: 1.125rem; }
   .academic-archive { padding-block: 2rem 3rem; }
 }
+/* DOI、PDF、Cite：紫色、粗体、无边框 */
+.academic-paper-links .hb-attachment-link {
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #563bff;
+  border: 1px solid currentColor;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+  background: transparent;
+}
+
+.academic-paper-links button.js-cite-clipboard {
+  color: #563bff;
+}
+
+.academic-paper-links {
+  gap: 1rem;
+}
