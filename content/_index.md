@@ -3,16 +3,26 @@ title: ''
 summary: 'Jie Shen — structural and earthquake engineering researcher at the University of British Columbia.'
 type: landing
 sections:
-  - block: resume-biography
+  - block: resume-biography-3
     id: about
     content:
       username: me
-  - block: resume-experience
-    id: experience
-    content:
-      username: me
+      text: ''
+      headings:
+        about: About
+        education: Education
+        interests: Research interests
     design:
-      is_education_first: false  
+      background:
+        gradient_mesh:
+          enable: false
+      name:
+        size: md
+      avatar:
+        size: medium
+        shape: circle
+      spacing:
+        padding: ['3rem', '0', '3rem', '0']
   - block: markdown
     id: research
     content:
