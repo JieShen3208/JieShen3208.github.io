@@ -29,7 +29,7 @@ links:
     url: mailto:jie.shen@ubc.ca
     label: E-mail
 
-  - icon: academicons/google-scholar
+  - icon: custom/google-scholar
     url: https://scholar.google.com/citations?user=BYWjpGcAAAAJ&hl
     label: Google Scholar
 
