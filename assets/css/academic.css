@@ -39,22 +39,125 @@
   .academic-paper-title { font-size: 1.125rem; }
   .academic-archive { padding-block: 2rem 3rem; }
 }
-/* DOI、PDF、Cite：紫色、粗体、无边框 */
-.academic-paper-links .hb-attachment-link {
+/* 年份：保留左侧分组，适当缩小 */
+.academic-year {
+  font-size: 1.4rem;
   font-weight: 700;
-  font-size: 1rem;
-  text-transform: uppercase;
-  color: #563bff;
-  border: 1px solid currentColor;
-  padding: 0.3rem 0.7rem;
+}
+
+/* 标题：主要视觉焦点 */
+.academic-paper-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.45;
+  margin-bottom: 0.45rem;
+}
+
+/* 作者：稍小，仅突出 Jie Shen */
+.academic-paper-authors {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--academic-muted);
+}
+
+.academic-paper-authors .font-bold {
+  font-weight: 700;
+}
+
+/* 期刊与论文类型 */
+.academic-paper-venue {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.academic-paper-venue em {
+  font-style: italic;
+}
+
+.academic-paper-type {
+  border: none;
+  padding: 0;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--academic-muted);
+}
+
+.academic-paper-type::before {
+  content: "·";
+  margin-right: 0.5rem;
+}
+
+/* DOI / PDF / Cite：小号、细边框、深蓝色 */
+.academic-paper-links {
+  gap: 0.5rem;
+  margin-top: 0.65rem;
+}
+
+.academic-paper-links .hb-attachment-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-height: 2rem;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--academic-border);
   border-radius: 0.3rem;
   background: transparent;
+  color: var(--academic-link);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: none;
+  letter-spacing: normal;
+  box-shadow: none;
 }
 
 .academic-paper-links button.js-cite-clipboard {
-  color: #563bff;
+  color: var(--academic-link);
 }
 
-.academic-paper-links {
-  gap: 1rem;
+.academic-paper-links .hb-attachment-link svg {
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+
+.academic-paper-links .hb-attachment-link:hover {
+  color: var(--academic-link);
+  border-color: var(--academic-link);
+  background: color-mix(
+    in srgb,
+    var(--academic-link) 7%,
+    transparent
+  );
+}
+
+/* 论文之间保留留白和分隔线 */
+.academic-paper {
+  padding-bottom: 1.5rem;
+}
+
+.academic-paper + .academic-paper {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--academic-border);
+}
+
+.academic-paper:last-child {
+  padding-bottom: 0;
+}
+
+/* 手机端：年份在上方 */
+@media (max-width: 640px) {
+  .academic-year-group {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.85rem;
+  }
+
+  .academic-year {
+    font-size: 1.25rem;
+  }
+
+  .academic-paper-title {
+    font-size: 1.1rem;
+  }
 }
