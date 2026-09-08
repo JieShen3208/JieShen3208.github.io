@@ -11,6 +11,8 @@ publication_types:
 - article-journal
 publication: '*Composite Structures*'
 links:
+  - type: doi
+    url: https://doi.org/10.1016/j.compstruct.2022.115938
   - name: PDF
     url: 1-s2.0-S0263822322006973-main.pdf
 ---
