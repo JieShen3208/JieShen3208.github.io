@@ -55,31 +55,31 @@ interests:
 education:
   - degree: Ph.D. in Civil Engineering
     institution: Kyoto University
-    start: '2021-10-01'
-    end: '2024-09-01'
+    start: '2021-10'
+    end: '2024-09'
 
   - degree: M.Eng. in Civil Engineering
     institution: Southeast University
-    start: '2018-09-01'
-    end: '2021-06-01'
+    start: '2018-09'
+    end: '2021-06'
 
   - degree: B.Eng. in Civil Engineering
     institution: Nanjing Forestry University
-    start: '2014-09-01'
-    end: '2018-06-01'
+    start: '2014-09'
+    end: '2018-06'
 
 experience:
   - role: Postdoctoral Fellow
     org: University of British Columbia
-    start: '2025-04-01'
+    start: '2025-04'
     summary: |
       School of Engineering
 
       Supervisor: Prof. M. Shahria Alam
   - role: Postdoctoral Fellow
     org: Saitama University
-    start: '2024-10-01'
-    end: '2025-03-31'
+    start: '2024-10'
+    end: '2025-03'
     summary: |
       Department of Civil and Environmental Engineering
 
