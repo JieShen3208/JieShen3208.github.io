@@ -7,6 +7,10 @@ sections:
     id: about
     content:
       username: me
+    design:
+      avatar:
+        size: large
+        shape: circle    
       text: ''
       headings:
         about: About
