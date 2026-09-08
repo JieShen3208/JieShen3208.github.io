@@ -6,11 +6,7 @@ sections:
   - block: resume-biography-3
     id: about
     content:
-      username: me
-    design:
-      avatar:
-        size: large
-        shape: circle    
+      username: me  
       text: ''
       headings:
         about: About
